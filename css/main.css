@@ -36,6 +36,15 @@ p.ref {
 	text-align: center;
 	padding: 2em 1em;
 }
+
+.ldce-img {
+	width:150px;
+}
+
+.container.demo-1{
+	width:100%;
+	padding:0px;
+}
 /*the only button   */
 
 .ghost-button {
