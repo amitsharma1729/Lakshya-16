@@ -1,0 +1,99 @@
+
+ul#timer {
+  list-style: none;
+  padding: 0;
+  display: block;
+  text-align: center;
+  position: absolute;
+top: 45%;
+left: 35%;
+color: white;
+
+}
+
+ul#timer li { display: inline-block; }
+
+ul#timer li span {
+  font-size: 70px;
+  font-weight: 300;
+  line-height: 70px;
+}
+
+ul#timer li.seperator {
+  font-size: 80px;
+  line-height: 70px;
+  vertical-align: top;
+}
+
+ul#timer li p {
+  color: #a7abb1;
+  font-size: 25px;
+}
+
+
+@media only screen and (max-width : 800px) {
+  ul#timer {
+    list-style: none;
+    padding: 0;
+    display: block;
+    text-align: center;
+    position: absolute;
+  top: 45%;
+  left: 20%;
+  color: white;
+
+  }
+
+  ul#timer li span {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+  }
+
+  ul#timer li.seperator {
+    font-size: 30px;
+    line-height: 20px;
+    vertical-align: top;
+  }
+
+  ul#timer li p {
+    color: #a7abb1;
+    font-size: 25px;
+  }
+
+	}
+
+
+	@media only screen and (max-width : 480px) {
+
+    ul#timer {
+      list-style: none;
+      padding: 0;
+      display: block;
+      text-align: center;
+      position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+
+    }
+
+
+    ul#timer li span {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 15px;
+    }
+
+    ul#timer li.seperator {
+      font-size: 20px;
+      line-height:25px;
+      vertical-align: top;
+    }
+
+    ul#timer li p {
+      color: #a7abb1;
+      font-size: 20px;
+    }
+
+		}
