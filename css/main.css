@@ -32,6 +32,13 @@ section {
 	text-align: center;
 }
 
+
+.robo-img {
+	position: absolute;
+	z-index: 2;
+	right:10px;
+}
+
 p.ref {
 	text-align: center;
 	padding: 2em 1em;
